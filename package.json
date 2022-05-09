@@ -1,15 +1,14 @@
 {
-  "name": "cacheman-redis",
+  "name": "tomjs-cacheman-redis",
   "version": "2.1.0",
-  "description": "Redis standalone caching library for Node.JS and also cache engine for Cacheman",
-  "author": "Jonathan Brumley <cayasso@gmail.com>",
+  "description": "Redis standalone caching library for Node.JS and also cache engine for Cacheman forked from cayasso/cacheman-redis",
   "main": "./src/index",
   "scripts": {
     "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/cayasso/cacheman-redis.git"
+    "url": "git://github.com/tiandiwy/cacheman-redis"
   },
   "keywords": [
     "cache",
@@ -23,14 +22,14 @@
   "devDependencies": {
     "mocha": "*",
     "pre-commit": "1.2.2",
-    "redis": "^2.8.0"
+    "redis": "^3.1.2"
   },
   "dependencies": {
     "each": "1.2.1",
     "parse-redis-url": "0.0.2"
   },
   "peerDependencies": {
-    "redis": "2.x"
+    "redis": "3.x"
   },
   "pre-commit": [
     "test"
